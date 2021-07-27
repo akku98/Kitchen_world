@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '2w=7b7nbih6g$@$26vhu0_x#8q^jtnawy_t=h$$b)0rk++sb5h'
+SECRET_KEY = '---------'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -162,10 +162,10 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     #'app1.backends.SettingsBackend',  # to use our own backend class in backends.py
 ]
-"""superuser user- akruti pass-1206 """
+
 
 # pip install stripe , login to stripe.com , get apis (for card payments)
-STRIPE_SECRET_KEY = "sk_test_51IxPlpSHGFdNGMiF5SNUTYFx4AOTfZIs6L04D41k7wPqFKUkjJgz7COhxXNpopqCxFWSkHOvK6YxipKVUCSFCJ0x00Hca1FJwY"
-STRIPE_PUBLISHABLE_KEY = "pk_test_51IxPlpSHGFdNGMiFivFW6egfqOtlDquFR0DHLUtjdbyjkHcvbvFKSSpA6uZxULcA4XOdn3QXnQtnLP2SugmjuHPr00rw9L2evU"
+STRIPE_SECRET_KEY = "--------00Hca1FJwY"
+STRIPE_PUBLISHABLE_KEY = "--------------ugmjuHPr00rw9L2evU"
 
 DEFAULT_TAX_RATE = 0.08 # 8%
